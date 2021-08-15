@@ -9,7 +9,7 @@ Educación:
     institution: Instituto Tecnológico de la Laguna / IPN
     year: 2007
   
-email: "lemendoza@upgop.edu.mx"
+email: ""
 highlight_name: false
 intereses:
 - Estadística Descriptiva e Inferencial
@@ -20,9 +20,6 @@ organizations:
   url: https://www.upgop.edu.mx/
 role: Profesor de Matemáticas
 social:
-- icon: envelope
-  icon_pack: fas
-  link: #contact
 - display:
     header: true
   icon: twitter
