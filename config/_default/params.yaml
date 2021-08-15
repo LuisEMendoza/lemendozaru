@@ -20,17 +20,7 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: lemendoza@upgop.edu.mx
-contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: Twitter
-    link: 'https://twitter.com/des_arraigo'
-  - icon: facebook
-    icon_pack: fab
-    name: Messenger
-    link: 'https://www.facebook.com/luisenrique.mendozaruiz'
-  
+
 # Site header
 
 main_menu:
