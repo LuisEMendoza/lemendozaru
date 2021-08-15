@@ -1,27 +1,24 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: Mis intereses de investigación giran alrededor de la Estadística, las Matemáticas y el Internet de las Cosas.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-email: ""
+  - course: Maestría en Educación
+    institution: Universidad Interamericana para el Desarrollo
+    year: 2019
+  - course: Ingeniero en Mecatrónica
+    institution: Instituto Tecnológico de la Laguna / IPN
+    year: 2007
+  
+email: "lemendoza@upgop.edu.mx"
 highlight_name: false
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Estadística Descriptiva e Inferencial
+- Matemáticas Puras y Aplicadas
+- Internet de las Cosas
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+- name: Universidad Politécnica de Gómez Palacio
+  url: https://www.upgop.edu.mx/
+role: Profesor de Matemáticas
 social:
 - icon: envelope
   icon_pack: fas
@@ -30,23 +27,19 @@ social:
     header: true
   icon: twitter
   icon_pack: fab
-  label: Follow me on Twitter
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  label: Sígueme en Twitter
+  link: https://twitter.com/des_arraigo
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://github.com/LuisEMendoza
+- icon: youtube
+  icon pack: fab
+  link: https://www.youtube.com/channel/UCw2QavUC3TLrmInzRz7hRWg
+
 superuser: true
-title: Nelson Bighetti
+title: Luis Mendoza
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Soy ingeniero en Mecatrónica y docente de asignaturas de corte matemático e informático en la licenciatura en Negocios Internacionales y la Ingeniería en Tecnologías de la Información de la Universidad Politécnica de Gómez Palacio; además también imparto asignaturas del mismo corte en las ingenierías en Mecatrónica e Industrial y Sistemas de la Universidad del Valle de México Campus Torreón.  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Descargue mi {{< staticref "uploads/demo_resume.pdf" "newtab" >}}CV{{< /staticref >}}.
