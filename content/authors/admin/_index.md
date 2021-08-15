@@ -1,6 +1,6 @@
 ---
 bio: Mis intereses de investigación giran alrededor de la Estadística, las Matemáticas y el Internet de las Cosas.
-education:
+Educación:
   courses:
   - course: Maestría en Educación
     institution: Universidad Interamericana para el Desarrollo
@@ -11,7 +11,7 @@ education:
   
 email: "lemendoza@upgop.edu.mx"
 highlight_name: false
-interests:
+intereses:
 - Estadística Descriptiva e Inferencial
 - Matemáticas Puras y Aplicadas
 - Internet de las Cosas
@@ -32,7 +32,7 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/LuisEMendoza
-- icon: youtube
+- icon: youtube-square
   icon pack: fab
   link: https://www.youtube.com/channel/UCw2QavUC3TLrmInzRz7hRWg
 
