@@ -22,12 +22,7 @@ twitter: ''
 
 email: lemendoza@upgop.edu.mx
 phone: 871 439 9660
-address:
-  city: Torreón
-  region: Coahuila
-  postcode: '27000'
-  country: México
-  country_code: MX
+
 contact_links:
   - icon: twitter
     icon_pack: fab
