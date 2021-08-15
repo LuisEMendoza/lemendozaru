@@ -12,7 +12,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 15
 
-title: Hugo Academic Theme Demo
+title: Luis Enrique Mendoza Ruiz
 subtitle:
 
 design:
@@ -28,16 +28,9 @@ design:
     padding: ["20px", "0", "20px", "0"]
 ---
 
-Welcome to the demo of the **academic resumé template** for Wowchemy, the Website Builder for Hugo.
+Le doy la bienvenida a mi sitio personal. Aquí hay entradas sobre lo que me apasiona: el Internet de las Cosas y sistemas embebidos, las Matemáticas, la Estadística, Geogebra, R y RStudio. Y además pronto estaré subiendo cursos y tutoriales sobre esos mismos temas, en conjunto con mi pequeño canal de Youtube.
 
-[Explore similar templates](https://wowchemy.com/templates/)
-
-**Over 500,000 [Amazing Websites](https://wowchemy.com/) have Already Been Built with Wowchemy**
-
-**[Join](https://wowchemy.com/templates/) the Most Empowered Hugo Community**
 
 {{% callout note %}}
-This homepage section is an example of adding [elements](https://wowchemy.com/docs/content/writing-markdown-latex/) to the [*Blank* widget](https://wowchemy.com/docs/getting-started/page-builder/).
-
-Backgrounds can be applied to any section. Here, the *background* option is set give an *image parallax* effect.
+Siéntase libre de explorar. Mis datos de contacto se encuentran en el último enlace justo arriba de esta sección.
 {{% /callout %}}
