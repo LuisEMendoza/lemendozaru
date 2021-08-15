@@ -1,0 +1,76 @@
+---
+title: Conectando ESP32 a internet (WiFi)
+author: Luis Mendoza
+date: '2021-08-15'
+slug: conectando-esp32-a-internet-wifi
+categories: []
+tags:
+  - ArduinoIDE
+  - ESP32
+  - IoT
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-08-15T18:12:00-05:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+Sin circuito de por medio y con solo la placa conectada a la PC con su respectivo cable. Lógicamente es necesario que haya una red WiFi en las cercanías y que conozcamos tanto su SSID como su contraseña.
+
+#### Materiales
+
+- Placa ESP32
+
+- Una red WiFi conocida
+
+#### Código
+
+El siguiente código permite conectarse a una red WiFi de la cual conocemos los datos de acceso, a la vez que nos indica su estado. Es decir, nos estará mostrando si está conectándose y de lograrlo, nos indicará en la consola la dirección IP que haya obtenido.
+
+```{C++}
+
+// descomentar la siguiente línea si no se utiliza Arduino IDE
+//#include <Arduino.h>
+#include <WiFi.h>
+
+const char* ssid = "TuSSID";
+const char* password = "TuPassWord";
+
+void setup() {
+  Serial.begin(115200);
+  delay(10);
+
+  Serial.println("");
+  Serial.println("");
+
+  Serial.print("Conectando a --> ");
+  Serial.println(ssid);
+
+  // nos conectamos
+
+  WiFi.begin(ssid, password);
+
+  while (WiFi.status() != WL_CONNECTED) {
+    Serial.print(".");
+    delay(250);
+  }
+
+  Serial.println("");
+  Serial.println("Conexión exitosa");
+
+  Serial.print("Mi ip es --> ");
+  Serial.println(WiFi.localIP());
+
+}
+
+void loop() {
+  
+}
+```
+
+

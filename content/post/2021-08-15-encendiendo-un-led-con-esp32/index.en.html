@@ -1,0 +1,61 @@
+---
+title: Encendiendo un led con ESP32
+author: Luis Mendoza
+date: '2021-08-15'
+slug: encendiendo-un-led-con-esp32
+categories: []
+tags:
+  - ArduinoIDE
+  - ESP32
+  - IoT
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-08-15T18:10:05-05:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<p>La lista de materiales, el circuito y el código son básicamente los mismos que en Arduino.</p>
+<div id="materiales" class="section level2">
+<h2>Materiales</h2>
+<ul>
+<li><p>Led de color indistinto</p></li>
+<li><p>Resistencia de al menos 220<span class="math inline">\(\Omega\)</span></p></li>
+<li><p>Tablilla de prototipado</p></li>
+<li><p>ESP32</p></li>
+</ul>
+</div>
+<div id="circuito" class="section level2">
+<h2>Circuito</h2>
+<p>Armamos el circuito conectando la patilla corta del led a la resistencia y ésta a su vez a la tierra GND de la ESP32 (pin superior derecho, observando la placa con el puerto micro-usb apuntando hacia abajo). La patilla larga del led se conecta al pin 23 (se encuentra al lado del pin de tierra)</p>
+</div>
+<div id="código" class="section level2">
+<h2>Código</h2>
+<pre class="{c++}"><code>// Descomentar la siguiente línea si no se utiliza Arduino IDE
+// #include &lt;Arduino.h&gt; 
+
+const int led = 23;
+
+void setup() {
+    pinMode(led, OUTPUT);
+}
+
+void loop() {
+    digitalWrite(led, HIGH);   
+    delay(1000);                 
+    digitalWrite(led, LOW);    
+    delay(1000)
+}</code></pre>
+</div>
+<div id="sobre-cierto-error-de-comunicación" class="section level2">
+<h2>Sobre cierto error de comunicación</h2>
+<p>Anteriormente ya se mencionó pero cabe repetirlo. La placa NodeMCU-32S tiene algo peculiar. Si al momento de subir un <em>sketch</em> no se presiona el botón <em>BOOT</em> ocurrirá un error de comunicación. Por lo tanto, al momento de enviar el archivo a la placa, presione dicho botón hasta que la terminal indique que se está escribiendo en la placa. Si no ha surgido el error, presione el otro botón de la placa (EN) para activar el modo <em>ejecución</em>. Sería todo.</p>
+</div>

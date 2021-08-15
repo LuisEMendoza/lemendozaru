@@ -5,7 +5,7 @@ date: '2021-08-15'
 slug: introducción-e-instalación-de-esp32-en-arduino-ide
 categories: []
 tags:
-  - Arduino IDE
+  - ArduinoIDE
   - IoT
   - ESP32
 subtitle: ''
