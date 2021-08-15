@@ -14,7 +14,7 @@ subtitle:
 
 content:
   # Automatically link email and phone or display as text?
-  autolink: false
+  autolink: true
   
   # Email form provider
   form:
@@ -25,6 +25,6 @@ content:
       # Enable CAPTCHA challenge to reduce spam?
       captcha: true
   
-design:
-  columns: '2'
+#design:
+#  columns: '2'
 ---
