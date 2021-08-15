@@ -22,7 +22,7 @@ role: Profesor de Matemáticas
 social:
 - icon: envelope
   icon_pack: fas
-  link: /#contact
+  link: #contact
 - display:
     header: true
   icon: twitter
@@ -32,7 +32,7 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/LuisEMendoza
-- icon: youtube-square
+- icon: youtube
   icon pack: fab
   link: https://www.youtube.com/channel/UCw2QavUC3TLrmInzRz7hRWg
 
